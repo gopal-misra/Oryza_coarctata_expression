@@ -3,7 +3,7 @@ The current pipeline was used in our rice genome evolution paper to understand t
 
 1. Identification of homoeologous and non-homoeologous genes between two sub-genomes of a tetraploid species.
 
-2. Identification of homologous and non-homologous between a tetraploid species and its diploid relative.
+2. Identification of homologous and non-homologous genes between a tetraploid species and its diploid relative.
 
 3. Map the raw RNAseq reads to the genomes and calculate each gene's transcript per million (TPM).
 
