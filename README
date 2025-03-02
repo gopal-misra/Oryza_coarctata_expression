@@ -1,4 +1,18 @@
 
+This pipeline was used in our rice genome evolution paper to understand the comparative expression pattern between homoeologous (homologous) and non-homoeologous (non-homologous) genes. The whole pipeline is sub-divided into following steps:
+
+1. Identification of homoeologous and non-homoeologus genes between two sub-genomes of a tetraploid species.
+
+2. Identification of homologous and non-homologous between a tetraploid species and its diploid relative.
+
+3. Map the raw reads of RNAseq to the genomes and calculate the transcript per million (TPM) for each genes.
+
+4. Plot the expression values as boxplot with the outcome of a statistical test.
+
+Prerquisite
+
+Linux shell and perl are the main requirement for this pipeline along with the publicly available tools fastQC, tophat2, eagle-RC, TPMcalculator.
+
 Please keep all the read data and script in one directory and run pipeline.sh. It will run all the steps and come out with the final box plot.
 
 In only one step we need to manually curate one text file named as single_copy_homolog_Os_Oc.txt. Some of the Os genes showed hits with both KK and LL, but those KK-LL genes are not in homoeologous pairs. There were around 600 genes, so we removed them from the SCH list.
