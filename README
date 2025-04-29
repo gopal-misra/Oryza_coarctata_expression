@@ -17,3 +17,7 @@ Instructions
 Please keep all the read data and script in one directory and run the pipeline. The sh shell script will run all the steps and produce the final box plot and tables.
 
 In only one step, we need to manually curate a text file named single_copy_homolog_Os_Oc.txt. Some of the Os genes showed hits with both KK and LL, but those KK-LL genes are not in homoeologous pairs. There were around 600 genes, so we removed them from the SCH list.
+
+Citation
+
+Fornasiero, A., Feng, T., Al-Bader, N. et al. Oryza genome evolution through a tetraploid lens. Nat Genet (2025). https://doi.org/10.1038/s41588-025-02183-5
